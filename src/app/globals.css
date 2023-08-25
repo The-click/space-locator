@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+ul{
+  list-style: none;
+  
+}
+
+
+:root{
+  --primary-color: #F86600;
+}
+
+body{
+  color: white;
+  background-color: black;
+  background-image: url("../assets/img/planeta.png");
+  background-position: 0px 100px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scrollbar-gutter: stable both-edges;
+}
+.wrapper{
+  max-width: 1300px;
+  padding: 20px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}

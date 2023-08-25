@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    gap: 50px;
+}
+.title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.infoHeader {
+    margin-left: 15px;
+}
+.switchDist {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    margin-bottom: 25px;
+}
+.btnSwitch {
+    text-decoration: underline;
+
+    &.active {
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
+
+.itemAster {
+    margin-bottom: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
